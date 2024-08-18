@@ -22,20 +22,9 @@ def timing_lirik(lirik, delay, speed):
 
 def print_lirik():
     lirik_isi = [
-        ("I'm falling in love",0.117),
-        ("I'm in love for the first time to you\n",0.099),
-        ("Hatiku...",0.15),
-        ("tercipta hanya untuk dirimu",0.12),
-        ("Walau cinta tak harus memiliki",0.12),
-        ("Kutetap setia mencintaimu\n",0.12),
-        ("Hatiku...",0.15),
-        ("tercipta hanya untuk dirimu (diriku)",0.15),
-        ("Kutanamkan harapan di hatiku",0.15),
-        ("Kau matahari di dalam hidupku",0.12),
-        ("Kau matahari...",0.1),
-        ("di dalam hidupku...",0.15)
+           # isi lirik. ("lirik",speed). ex: ("nananana",0.1)
     ]
-    detik = [01.3, 06.2, 11.7, 15, 20.5, 26.1, 34.3, 37.6, 43.2, 48.5, 57, 62.7]
+    detik = [] # waktu dimunculkan lirik, gunakan detik jangan menit. ex: 2 menit -> 120 detik
     
     threads = []
     for i in range(len(lirik_isi)):
