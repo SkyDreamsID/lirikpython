@@ -1,1 +1,1 @@
-galau ya ngoding
+useless project
