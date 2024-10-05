@@ -1,1 +1,1 @@
-# lirikpython
+galau ya ngoding
